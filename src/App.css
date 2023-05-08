@@ -1,0 +1,11 @@
+.box {
+  padding: 40px 50px;
+}
+
+.loder{
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
