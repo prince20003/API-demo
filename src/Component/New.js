@@ -69,7 +69,6 @@ function Api() {
         const res = await fetch(`https://hn.algolia.com/api/v1/search_by_date?tags=story&page=${page}`);
         const data = await res.json();
         setUdata(udata.concat(data.hits));
-        console.log(page, "psss")
       }
       catch (e) {
         console.error(e);
